@@ -1,23 +1,19 @@
+/*
+ * @Descriptin:
+ * @Version: 0.1
+ * @Autor: Your Name
+ * @Date: 2021-09-14 16:13:37
+ * @LastEditors: Your Name
+ * @LastEditTime: 2021-09-16 09:29:07
+ */
 import Vue from 'vue'
 import Vuex from 'vuex'
-import app from './modules/app'
-import user from './modules/user'
-import tagsView from './modules/tagsView'
-import permission from './modules/permission'
-import settings from './modules/settings'
-import getters from './getters'
 
 Vue.use(Vuex)
 
-const store = new Vuex.Store({
-  modules: {
-    app,
-    user,
-    tagsView,
-    permission,
-    settings
-  },
-  getters
+export default new Vuex.Store({
+    state: {},
+    mutations: {},
+    actions: {},
+    modules: {}
 })
-
-export default store

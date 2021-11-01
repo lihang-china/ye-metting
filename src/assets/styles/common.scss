@@ -1,7 +1,0 @@
-$vm_design: 1920;
-$scale:0.5;//最小缩小比较
-//基于设计图的比例适配尺寸
-@function rem($px) {
-    $res : 100vw / $vm_design;
-    @return $res * $px;
-}
